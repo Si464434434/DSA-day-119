@@ -12,7 +12,7 @@ public:
         reverse(s.begin(), s.end());
 
         // Step 3: Convert back to integer
-        int rev = stoi(s);
+        int rev = stoi(s); y
 
         // Step 4: Return absolute difference
         return abs(n - rev);
